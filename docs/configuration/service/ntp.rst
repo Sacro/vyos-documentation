@@ -46,9 +46,9 @@ Configuration
 
    There are 3 default NTP server set. You are able to change them.
 
-   * ``0.pool.ntp.org``
-   * ``1.pool.ntp.org``
-   * ``2.pool.ntp.org``
+   * ``time1.vyos.net``
+   * ``time2.vyos.net``
+   * ``time3.vyos.net``
 
 .. cfgcmd:: set service ntp server <address> <noselect | nts | pool | prefer>
 
